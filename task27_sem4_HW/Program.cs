@@ -31,10 +31,6 @@ Console.WriteLine(sum);
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int length = GetQuant(number);
-// Console.WriteLine($"Количество цифр в числе: {GetQuant(number)}");
-// int sum = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine(sum);
-// PrintSumNum(sum);
 SumNum(number, length);
 
 
